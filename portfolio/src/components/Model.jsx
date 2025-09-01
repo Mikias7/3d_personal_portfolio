@@ -1,9 +1,9 @@
 import { useGLTF, OrbitControls } from '@react-three/drei';
 
-function Model({ url = "/models/scene.gltf" }) {
+function Model({ url = "/models/scene.gltf", position, rotation = [0,0,0] }) {
   const { scene } = useGLTF(url); // Load GLTF or GLB model
   return (
-    <primitive position={[0,-1.5,3.5]} object={scene} />
+    <primitive position={position} object={scene} rotation={rotation}/>
 );
 }
 
