@@ -7,7 +7,7 @@ function App() {
       gl={{ alpha: true }}/>
 
 
-      <div style={{ position: 'absolute', top: 0, left: 10 }}>
+      <div style={{ position: 'absolute', top: 10, left: 20 }}>
         <h1>Home</h1>
         <p>Hello this is the home page</p>
       </div>
