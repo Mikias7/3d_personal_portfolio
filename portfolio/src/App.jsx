@@ -4,9 +4,13 @@ import AnimationCanvas from "./components/AnimationCanvas";
 import Home from "./pages/Home";
 import Projects from './pages/Projects';
 
+//import BlobCursor from './blocks/Animations/BlobCursor/BlobCursor.jsx';
+
 function App() {
   return (
     <div>
+
+      
 
       <div style={{ height: "200vh" }}>
         <AnimationCanvas  style={{ position: 'absolute', top: 0, left: 0 }}
@@ -17,6 +21,7 @@ function App() {
       <div style={{ position: 'absolute', top: 10, left: 20 }}>
 
         <div style={{ height: "100%"}}>
+          
           <section style={{ height: "100vh"}}>
             <Home />
           </section>
